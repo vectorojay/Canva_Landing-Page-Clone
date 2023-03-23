@@ -168,6 +168,10 @@
 
 /* PLANS SECTION */
 
+.section-plans {
+  margin-bottom: 10rem;
+}
+
 .plans-box {
   max-width: 100rem;
   margin: auto;
@@ -193,12 +197,125 @@
   margin-top: 3rem;
 }
 
+/* FEATURES SECTION */
+.section-features {
+  margin-bottom: 10rem;
+}
+.feature {
+  margin-bottom: 4rem;
+}
 .feature-video {
   height: 40rem;
   width: 80rem;
 }
 
 .features-div {
-  max-width: 130rem;
+  max-width: 135rem;
   margin: auto;
 }
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* TEMPLATES SECTION */
+
+.section-template-container {
+  display: flex;
+  padding: 2rem 10rem;
+  gap: 3rem;
+  align-items: start;
+}
+
+.temp-sub-heading {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.template-col {
+  display: grid;
+  gap: 2rem;
+  width: 100%;
+}
+
+/* .col-1 {
+  height: 700px;
+} */
+
+/* .col-2 {
+  height: 650px;
+} */
+
+.temp {
+  border: 0.1px solid #999;
+  border-radius: 5px;
+}
+
+.temp img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.temp-1 {
+  width: 100%;
+  height: 25rem;
+  background-color: green;
+}
+
+.temp-2 {
+  width: 100%;
+  height: 15rem;
+  background-color: blue;
+}
+
+.temp-3 {
+  width: 100%;
+  height: 25rem;
+  background-color: yellow;
+}
+
+/* .temp-1 img,
+.temp-2 img,
+.temp-3 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+} */
+
+.temp-4 {
+  width: 100%;
+  height: 35rem;
+  background-color: yellow;
+}
+
+.temp-5 {
+  width: 100%;
+  height: 25rem;
+  background-color: yellow;
+}
+
+/* .temp-4 img,
+.temp-5 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+} */
+
+.temp-6 {
+  width: 100%;
+  height: 20rem;
+}
+
+.temp-7 {
+  width: 100%;
+  height: 20rem;
+}
+
+/* .temp-6 img,
+.temp-7 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+} */
