@@ -19,8 +19,8 @@
   position: relative;
 }
 
-.nav-item {
-}
+/* .nav-item {
+} */
 
 .nav-link {
   text-decoration: none;
@@ -71,7 +71,7 @@
   display: none;
   background-color: #fff;
   position: absolute;
-  width: 100rem;
+  width: 110rem;
   z-index: 1;
   height: 45rem;
   box-shadow: 0 0 0.8rem rgba(136, 130, 130, 0.258);
@@ -151,8 +151,8 @@
 }
 
 .dropdown-img-2 {
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
   border-radius: 1rem;
 }
 
@@ -161,11 +161,6 @@
 .hero-text-box {
   text-align: center;
   margin-top: 6rem;
-}
-
-.heading-sub-text {
-  font-size: 2.2rem;
-  margin-bottom: 2.4rem;
 }
 
 .hero-video {
@@ -194,7 +189,7 @@
 /* PLANS SECTION */
 
 .section-plans {
-  margin-bottom: 10rem;
+  margin: 10rem;
 }
 
 .plans-box {
@@ -245,6 +240,10 @@
 }
 
 /* TEMPLATES SECTION */
+
+.section-template {
+  margin-bottom: 10rem;
+}
 
 .section-template-container {
   display: flex;
@@ -344,3 +343,28 @@
   height: 100%;
   border-radius: 5px;
 } */
+
+.canva-for-teams-heading {
+  max-width: 65rem;
+  margin: auto;
+}
+
+.canva-for-teams-heading-sub-text {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+.canva-for-teams-box {
+  max-width: 120rem;
+  margin: auto;
+}
+
+.canva-for-teams-text {
+  font-size: 1.4rem;
+  gap: 5.5rem;
+  padding: 2rem 10rem;
+}
+
+.teams-icons {
+  height: 4rem;
+  width: 4rem;
+}
