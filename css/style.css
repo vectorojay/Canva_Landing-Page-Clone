@@ -1,11 +1,16 @@
 .navigation {
+  position: fixed;
+  top: 0;
+
   display: flex;
   align-items: center;
   font-size: 1.4rem;
   letter-spacing: 0.08rem;
   padding: 1.6rem 3.2rem;
   /* justify-content: center; */
-  max-width: 100vw;
+  width: 100%;
+  z-index: 9;
+  background-color: #fff;
   justify-content: space-between;
   box-shadow: 0 0 0.8rem rgba(136, 130, 130, 0.258);
 }
@@ -99,15 +104,17 @@
   width: 100%;
 }
 
-.dropdown-links {
+.dropdown-links,
+.foooter-links {
   padding: 1rem 0;
-  line-height: 1;
+  /* line-height: 1; */
 }
 
-.dropdown-item {
+.dropdown-item,
+.footer-item {
   list-style: none;
   /* margin-bottom: 1.4rem; */
-  padding: 1rem;
+  padding: 0.7rem;
 }
 
 .dropdown-item:hover {
@@ -143,7 +150,8 @@
   transform: scale(1.05);
 }
 
-.dropdown-nav-link {
+.dropdown-nav-link,
+.footer-nav-link {
   text-decoration: none;
   color: inherit;
   white-space: nowrap;
@@ -161,6 +169,7 @@
 .hero-text-box {
   text-align: center;
   margin-top: 6rem;
+  padding: 8rem;
 }
 
 .hero-video {
@@ -208,14 +217,47 @@
   height: 3.2rem;
   width: 3.2rem;
 }
+/* BRANDS SECTION */
 
 .logo-img {
   height: 5rem;
+  margin-right: 10rem;
 }
 
 .logo-box {
   margin-top: 3rem;
 }
+
+/* .marquee {
+  height: 25px;
+  width: 420px;
+
+  overflow: hidden;
+  position: relative;
+} */
+
+/* .marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 15s linear infinite;
+  animation-fill-mode: both;
+}
+
+
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+} */
 
 /* FEATURES SECTION */
 .section-features {
@@ -344,6 +386,12 @@
   border-radius: 5px;
 } */
 
+/* CANVA FOR TEAMS SECTION */
+
+.canva-for-teams-section {
+  margin-bottom: 15rem;
+}
+
 .canva-for-teams-heading {
   max-width: 65rem;
   margin: auto;
@@ -367,4 +415,139 @@
 .teams-icons {
   height: 4rem;
   width: 4rem;
+}
+
+/* SURPRISES-SECTION */
+
+.section-surprises {
+  position: relative;
+  padding: 0 4rem 15rem;
+  border-bottom: 0.5px solid #777;
+  /* height: 300px; */
+}
+
+.surprises-heading {
+  width: 800px;
+  margin: auto;
+}
+
+.surprises-heading-sub-text {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.btn-left,
+.btn-right {
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 0.5px solid #777;
+  height: 4rem;
+  width: 4rem;
+  background-color: #fff;
+  z-index: 9;
+}
+
+.btn-left {
+  position: absolute;
+  left: 20px;
+  bottom: 50%;
+}
+
+.btn-right {
+  position: absolute;
+  right: 20px;
+  bottom: 50%;
+}
+
+.surprises-carousel {
+  overflow: hidden;
+}
+
+.surprise-carousel-item {
+  /* height: 220px; */
+  width: 300px;
+}
+.surprise-carousel-item-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.surprise-carousel-item-text h4 {
+  font-size: 1.4rem;
+  margin: 6px 0 4px;
+}
+
+.surprise-carousel-item-image {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.surprise-carousel-item-image img {
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.surprise-carousel-item-image img:hover {
+  transform: scale(1.1);
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 3rem 2rem 6rem;
+}
+
+.footer-box {
+  padding-bottom: 5rem;
+}
+
+.footer-nav-link:hover {
+  color: rgb(182, 64, 252);
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.footer-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem 1.6rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #777;
+}
+
+.footer-policy {
+  font-size: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  color: #777;
+}
+
+.footer-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.facebook {
+  color: #1877f2;
+}
+
+.twitter {
+  color: #1d9bf0;
+}
+
+.pinterest {
+  color: #e72b1c;
+}
+
+.instagram {
+  color: #c13584;
 }
