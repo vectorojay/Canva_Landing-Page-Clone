@@ -207,6 +207,14 @@ body {
   padding: 0 4rem;
 }
 
+.padding-top {
+  padding-top: 2rem;
+}
+
+.padding-left {
+  padding-left: 1rem;
+}
+
 /* TEXT-ALIGN */
 
 .text-align-ct {
