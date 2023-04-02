@@ -24,6 +24,10 @@
   position: relative;
 }
 
+h3 {
+  color: #000;
+}
+
 /* .nav-item {
 } */
 
@@ -74,6 +78,7 @@
   top: 4rem;
   left: 0;
   display: none;
+  color: #777;
   background-color: #fff;
   position: absolute;
   width: 105rem;
@@ -161,7 +166,7 @@
 
 .dropdown-img-link {
   text-decoration: none;
-  color: inherit;
+  color: #000;
   font-size: 1.8rem;
   letter-spacing: 0.03rem;
   font-weight: 700;
@@ -187,6 +192,83 @@
   border-radius: 1rem;
 }
 
+.pricing-plan-box {
+  width: 100%;
+  align-self: start;
+  height: 80%;
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-bottom: 1px solid #77777740;
+}
+
+.pricing-plan-box-2 {
+  width: 30%;
+  border-left: 1px solid #77777740;
+  height: 100%;
+}
+
+.pricing-plan-box-2-inner div:hover {
+  /* padding: 1rem; */
+  background-color: whitesmoke;
+}
+.pricing-plan-box-2-inner img {
+  object-fit: cover;
+}
+
+.pricing-plan-link-box {
+  display: inline-block;
+  /* margin-top: 3rem; */
+  padding: 2rem;
+}
+
+.pricing-plan-link {
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.pricing-plan-link:hover {
+  text-decoration: underline;
+}
+
+.pricing-item {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem 0; */
+  gap: 1rem;
+}
+
+.pricing-item p {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+  color: #777;
+
+  /* padding-right: 2rem; */
+  /* max-width: 30rem; */
+  width: 30rem;
+}
+
+.pricing-item div {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.pricing-item img {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 20rem;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.pricing-item img:hover {
+  transform: scale(1.1);
+}
 /* HERO SECTION */
 
 .hero-text-box {

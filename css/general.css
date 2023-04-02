@@ -67,6 +67,10 @@ body {
 .align-items-end {
   align-items: end;
 }
+
+.align-self-strt {
+  align-self: start;
+}
 /* JUSTIFY ITEMS */
 
 .justify-items-ct {
